@@ -12,8 +12,8 @@ class Artist
     @@songs << name
   end
   
-  def self.songs 
-    @@all
+  def songs 
+    @@songs
   end
   
   def self.all 
