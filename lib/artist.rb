@@ -29,8 +29,8 @@ class Artist
     song.all.length
   end
   
-  def add_song_by_name(song)
-    song = song.new(song)
+  def add_song_by_name(name)
+    song = song.new(name)
     self.add_song(song)
   end
 
