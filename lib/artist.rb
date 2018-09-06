@@ -1,3 +1,4 @@
+require 'pry'
 
 class Artist
   
@@ -21,6 +22,8 @@ class Artist
   def add_song(song)
     song.artist = self
   end
+  
+  binding.pry 
   
   def self.song_count
     
