@@ -14,6 +14,11 @@ class Song
   end 
   
   def artist_name
+    if name.artist 
+      
+    else
+      NIL
+    end
   end
   
 end
