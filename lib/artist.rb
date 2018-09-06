@@ -23,10 +23,8 @@ class Artist
     song.artist = self
   end
   
-  binding.pry 
-  
   def self.song_count
-    
+    song.all
   end
   
   def add_song_by_name
