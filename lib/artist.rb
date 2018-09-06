@@ -9,6 +9,7 @@ class Artist
   def initialize(name)
     @name = name
     @@all << self
+    @@songs << name
   end
   
   def self.songs 
