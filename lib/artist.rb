@@ -9,7 +9,7 @@ class Artist
     @@all << self
   end
   
-  def songs 
+  def self.songs 
     
   end
   
